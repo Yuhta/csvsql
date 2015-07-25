@@ -1,0 +1,12 @@
+[package]
+name = "sqlcsv"
+version = "0.1.0"
+authors = ["Jimmy Lu <gongchuo.lu@gmail.com>"]
+description = "Manipulate CSV file using SQL"
+license = "GPL-3"
+repository = "https://github.com/Yuhta/csvsql"
+
+[dependencies]
+csv = "*"
+getopts = "*"
+rusqlite = { git = "https://github.com/Yuhta/rusqlite", branch = "colnames" }
