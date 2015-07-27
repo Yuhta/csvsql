@@ -9,4 +9,4 @@ repository = "https://github.com/Yuhta/csvsql"
 [dependencies]
 csv = "*"
 getopts = "*"
-rusqlite = { git = "https://github.com/Yuhta/rusqlite", branch = "colnames" }
+rusqlite = "*"

@@ -4,7 +4,7 @@ version = "0.1.0"
 dependencies = [
  "csv 0.14.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "getopts 0.2.11 (registry+https://github.com/rust-lang/crates.io-index)",
- "rusqlite 0.1.0 (git+https://github.com/Yuhta/rusqlite?branch=colnames)",
+ "rusqlite 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -50,8 +50,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "libsqlite3-sys"
-version = "0.1.0"
-source = "git+https://github.com/Yuhta/rusqlite?branch=colnames#22968be4fc79e84d24774829d0f6204ebca2c862"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "libc 0.1.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "pkg-config 0.3.5 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -72,12 +72,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "rusqlite"
-version = "0.1.0"
-source = "git+https://github.com/Yuhta/rusqlite?branch=colnames#22968be4fc79e84d24774829d0f6204ebca2c862"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "bitflags 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.1.8 (registry+https://github.com/rust-lang/crates.io-index)",
- "libsqlite3-sys 0.1.0 (git+https://github.com/Yuhta/rusqlite?branch=colnames)",
+ "libsqlite3-sys 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.31 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
